@@ -24,6 +24,7 @@ A collection of papers about different subareas on Context-dependent Semantic Pa
 ### Full Supervision
 
 1. **Expanding the Scope of the ATIS Task: The ATIS-3 Corpus** HLT 1994. [paper](https://www.aclweb.org/anthology/H94-1010.pdf)
+
     *Deborah A. Dahl, Madeleine Bates, Michael Brown, William Fisher, Kate Hunicke-Smith, David Pallett, Christine Pao, Alexander Rudnicky, Elizabeth Shriberg*
 
 1. **Mapping Language to Code in Programmatic Context** EMNLP 2018. [paper](https://arxiv.org/pdf/1808.09588.pdf)
