@@ -89,9 +89,20 @@ A collection of papers about different subareas on Context-dependent Semantic Pa
     
 ### NL To Answer
 
+1. **Knowledge-Aware Conversational Semantic Parsing Over Web Tables** arxiv 2018. [paper](https://arxiv.org/pdf/1809.04271.pdf)
+
+    *Yibo Sun, Duyu Tang, Nan Duan, Jingjing Xu, Xiaocheng Feng, Bing Qin*
+
+
+1. **Answering Conversational Questions on Structured Data without Logical Forms** EMNLP 2019. [paper](https://www.aclweb.org/anthology/D19-1603.pdf)
+
+    *Thomas Mueller, Francesco Piccinno, Peter Shaw, Massimo Nicosia, Yasemin Altun*
+
+
 1. **TAPAS: Weakly Supervised Table Parsing via Pre-training** ACL 2020. [paper](https://arxiv.org/pdf/2004.02349.pdf)
 
     *Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno, Julian Martin Eisenschlos*
+
 
 ### NL To NL
 
