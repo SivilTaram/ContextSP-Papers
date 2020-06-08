@@ -6,14 +6,22 @@ A collection of papers about different subareas on Context-dependent Semantic Pa
 
 ## Content
 
-| Main | Sub | Example |
-|:---:|:---:|:---:|
-| [Dataset](#dataset) | Full Supervision | |
+| Main | Sub | Decsription |
+|:---|:---|:---|
+| [Dataset](#dataset) | [Full Supervision](#full-supervision) | Provide supervision from NL to logic form (SQL, code) |
+|  | [Weak Supervision](#weak-supervision) | Provide supervision from NL to answer (or state) |
+|  | [Auxiliary Supervision](#auxiliary-supervision) | Provide supervision from incomplete NL to rewritten ones |
+| [Method](#method) | [NL To SQL](#nl-to-sql) | Translating dialogue Utterances to SQL |
+| | [NL To Instruction](#nl-to-instruction) | Translating dialogue Utterances to Instruction |
+| | [NL To Code](#nl-to-code) | Translating uttearnces in programmtic context to code |
+| | [NL To Answer](#nl-to-answer) | Translating dialogue utterances to answer directly |
+| | [NL To NL](#nl-to-nl) | Rewriting incomplete dialogue utterances to complete ones |
+
 
 
 ## Dataset
 
-### Full Supervision (Question + Logic Form)
+### Full Supervision
 
 1. **Expanding the Scope of the ATIS Task: The ATIS-3 Corpus** HLT 1994. [paper](https://www.aclweb.org/anthology/H94-1010.pdf)
     *Deborah A. Dahl, Madeleine Bates, Michael Brown, William Fisher, Kate Hunicke-Smith, David Pallett, Christine Pao, Alexander Rudnicky, Elizabeth Shriberg*
@@ -30,7 +38,7 @@ A collection of papers about different subareas on Context-dependent Semantic Pa
 
     *Tao Yu, Rui Zhang, He Yang Er, Suyi Li, Eric Xue, Bo Pang, Xi Victoria Lin, Yi Chern Tan, Tianze Shi, Zihan Li, Youxuan Jiang, Michihiro Yasunaga, Sungrok Shim, Tao Chen, Alexander Fabbri, Zifan Li, Luyao Chen, Yuwen Zhang, Shreya Dixit, Vincent Zhang, Caiming Xiong, Richard Socher, Walter S Lasecki, Dragomir Radev*
 
-### Weak Supervision (Question + Answer)
+### Weak Supervision
 
 1. **Simpler Context-Dependent Logical Forms via Model Projections** ACL 2016. [paper](https://www.aclweb.org/anthology/P16-1138.pdf)
 
@@ -40,7 +48,7 @@ A collection of papers about different subareas on Context-dependent Semantic Pa
   
    *Mohit Iyyer, Wen-tau Yih, Ming-Wei Chang*
 
-### Auxiliary Supervision (Incomplete Question + Rewritten Question)
+### Auxiliary Supervision
 
 1. **FANDA: A Novel Approach to Perform Follow-up Query Analysis** AAAI 2019. [paper](https://arxiv.org/pdf/1901.08259.pdf)
 
@@ -85,7 +93,7 @@ A collection of papers about different subareas on Context-dependent Semantic Pa
 
     *Jonathan Herzig, Paweł Krzysztof Nowak, Thomas Müller, Francesco Piccinno, Julian Martin Eisenschlos*
 
-### NL To Rewritten NL
+### NL To NL
 
 1. **A Split-and-Recombine Approach for Follow-up Query Analysis** EMNLP 2019. [paper](https://www.aclweb.org/anthology/D19-1535.pdf)
 
